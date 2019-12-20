@@ -2,10 +2,8 @@
 let message;
 const logItems = function(array) {
   for (let i = 0; i < array.length; i += 1) {
-    message = `${[i + 1]} - ${array[i]}`;
-    console.log(message);
+    console.log(`${[i + 1]} - ${array[i]}`);
   }
-  return message;
 };
 
 logItems(["Mango", "Poly", "Ajax", "Lux", "Jay", "Kong"]);

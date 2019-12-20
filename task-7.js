@@ -1,7 +1,7 @@
 "use strict";
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 let result;
-
+// console.log(logins);
 const isLoginValid = function(login) {
   login.length >= 4 && login.length <= 16 ? (result = true) : (result = false);
   return result;
@@ -26,7 +26,9 @@ const addLogin = function(allLogins, login) {
   }
   return result;
 };
+
 console.log(addLogin(logins, "Ajax"));
 console.log(addLogin(logins, "robotGoogles"));
 console.log(addLogin(logins, "Zod"));
 console.log(addLogin(logins, "jqueryisextremelyfast"));
+// console.log(logins);
