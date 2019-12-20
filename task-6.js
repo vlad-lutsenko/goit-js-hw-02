@@ -10,7 +10,7 @@ do {
     alert("Было введено не число, попробуйте еще раз");
   } else {
     numbers.push(Number(input));
-    console.log(numbers);
+    // console.log(numbers);
   }
 } while (input !== null);
 
