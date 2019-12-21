@@ -19,6 +19,7 @@ do {
 if (numbers.length > 0) {
   for (let number of numbers) {
     total += number;
-    console.log(`сумма чисел в массиве равна ${total}`);
   }
+
+  console.log(`сумма чисел в массиве равна ${total}`);
 }
