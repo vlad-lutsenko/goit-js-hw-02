@@ -14,6 +14,9 @@ do {
   if (input !== null) {
     numbers.push(Number(input));
   }
+  if (input === null && numbers.length === 0) {
+    alert("сумма каких чисел, если ты нажал отмену? ))");
+  }
 } while (input !== null);
 
 if (numbers.length > 0) {
